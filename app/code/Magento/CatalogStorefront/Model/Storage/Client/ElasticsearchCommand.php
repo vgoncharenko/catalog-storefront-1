@@ -61,6 +61,7 @@ class ElasticsearchCommand implements CommandInterface
      */
     public function bulkInsert(string $dataSourceName, string $entityName, array $entries): void
     {
+        die(123);
         $query = $this->getDocsArrayInBulkIndexFormat($dataSourceName, $entityName, $entries, self::BULK_ACTION_INDEX);
         try {
             $result = $this->getConnection()->bulk($query);

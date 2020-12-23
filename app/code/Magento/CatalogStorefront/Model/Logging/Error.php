@@ -17,7 +17,7 @@ class Error extends \Magento\Framework\Logger\Handler\Base
     /**
      * @var string
      */
-    protected $fileName = '/var/log/storefront-catalog.log';
+    protected $fileName = './var/log/storefront-catalog.log';
 
     /**
      * @var int

@@ -28,7 +28,7 @@ class Debug extends \Magento\Framework\Logger\Handler\Debug
     /**
      * @var string
      */
-    protected $fileName = '/var/log/storefront-catalog-debug.log';
+    protected $fileName = './var/log/storefront-catalog-debug.log';
 
     /**
      * @var DeploymentConfig
